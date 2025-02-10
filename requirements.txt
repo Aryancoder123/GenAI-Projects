@@ -5,3 +5,5 @@ streamlit
 langchain-community
 langserve
 fastapi
+uvicorn
+
