@@ -18,7 +18,7 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-st.title("Langchain demo with llama3.2 api")
+st.title("Langchain demo with llama2 api")
 input_text = st.text_input("Write the text you want...")
 
 llm = Ollama(model="llama2")
